@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Lato', monospace;
     cursor: crosshair;
     scroll-behavior: smooth;
 }
 
-.me {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +46,7 @@ a:visited {
 }
 
 TODO: create responsive 3x3 project grid
-#portfolio {
+main {
 
 }
 
