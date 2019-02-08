@@ -1,13 +1,21 @@
 * {
-    font-family: 'Lato', monospace;
+    font-family: 'Tahoma', monospace;
     cursor: crosshair;
     scroll-behavior: smooth;
+}
+
+h1 {
+    color: #000;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
+
 }
 
 ul li {
@@ -25,15 +33,12 @@ a {
 
 a:hover {
     font-weight: bold;
-}
-
-a:active {
-    text-decoration: underline;
+    text-decoration: inherit;
 }
 
 a:visited {
     color: inherit;
-    text-decoration: none;
+    text-decoration: inherit;
 }
 
 .blink {
