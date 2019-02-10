@@ -2,24 +2,26 @@
     font-family: 'Tahoma', monospace;
     cursor: crosshair;
     scroll-behavior: smooth;
+    list-style-type: none;
 }
 
-h1 {
+.myname {
     color: #000;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 body {
 
 }
 
-ul li {
-    list-style-type: none;
+.links li {
+    
     display: inline-block;
     text-align: center;
     padding: 1em;
