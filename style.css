@@ -9,19 +9,15 @@
     color: #000;
 }
 
+TODO: add browser mods for 
+
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-body {
-
 }
 
 .links li {
-    
     display: inline-block;
     text-align: center;
     padding: 1em;
@@ -53,17 +49,16 @@ a:visited {
 }
 
 
-TODO: create responsive 3x3 project grid
-.gallery-wrapper {
-
-}
+TODO: create responsive tile gallery
 
 .gallery {
 
 }
 
 .project-card {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 TODO: make responsive for desktop/tablet/mobile
