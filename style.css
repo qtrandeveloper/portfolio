@@ -3,13 +3,11 @@
     cursor: crosshair;
     scroll-behavior: smooth;
     list-style-type: none;
-}
-
-.myname {
     color: #000;
 }
 
-TODO: add browser mods for 
+TODO: add vendor fixes for flex
+TODO: center nav at top of screen
 
 .nav {
     display: flex;
@@ -39,15 +37,6 @@ a:visited {
     text-decoration: inherit;
 }
 
-.blink {
-    animation: blink 1s infinite;
-}
-
-@keyframes blink{
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
 
 TODO: create responsive tile gallery
 
@@ -61,4 +50,4 @@ TODO: create responsive tile gallery
     justify-content: center;
 }
 
-TODO: make responsive for desktop/tablet/mobile
+TODO: make responsive for desktop/tablet/mobile. media queries?
