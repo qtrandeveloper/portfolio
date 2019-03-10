@@ -8,23 +8,21 @@
 	text-decoration: none; 
 }
 
-TODO: add vendor fixes for flex
-TODO: figure out why i cant make h1 larger and why it shifts to left when i remove it
-
-h1 {
-    font-size: 3em;
+.name {
+    font-size: 2em;
 }
 
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .links li {
     display: inline-block;
     text-align: center;
-    padding: 1em;
+    padding: 2.5em;
 }
 
 a {
@@ -42,9 +40,6 @@ a:visited {
     text-decoration: inherit;
 }
 
-
-TODO: create responsive tile gallery
-
 .gallery {
 
 }
@@ -55,4 +50,4 @@ TODO: create responsive tile gallery
     justify-content: center;
 }
 
-TODO: make responsive for desktop/tablet/mobile. media queries?
+
