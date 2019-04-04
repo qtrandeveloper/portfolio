@@ -41,13 +41,13 @@ a:visited {
 }
 
 .gallery {
-
-}
-
-.project-card {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
-
+.project-card {
+    max-width: 100%;
+    height: auto;
+}
