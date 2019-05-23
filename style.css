@@ -47,7 +47,10 @@ a:visited {
     flex-flow: row wrap;
 }
 
-.project-card {
-    max-width: 100%;
-    height: auto;
+.img-circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
