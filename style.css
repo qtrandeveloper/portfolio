@@ -1,33 +1,42 @@
-/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,video{height:auto;max-width:100%}audio{max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 
-* {
-    font-family: 'Lato', monospace;
+
+body, html {
+    font-family: 'Nanum Gothic', sans-serif;
     cursor: crosshair;
     scroll-behavior: smooth;
-    color: #000;
-	text-decoration: none; 
+    color: white;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    height: 100%;
+    width: 100%;
+    background-color: #6CBF84;
 }
 
-.name {
-    font-size: 2em;
+h1 {
+    font-size: 2em; 
 }
 
 .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background-color: #323339;
+    width: 100%;
     padding: 1em;
+    position: sticky;
+    top: 0;
 }
 
-.links li {
-    display: inline-block;
-    text-align: center;
-    padding: 2.5em;
+.links-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+   
 }
 
 a {
     color: inherit;
-    font-size: 1.5em; 
+    text-decoration: none;
 }
 
 a:hover {
@@ -41,16 +50,13 @@ a:visited {
 }
 
 .gallery {
+    padding: 1em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: row wrap;
 }
 
-.img-circle {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+img {
+    max-width: 600px;
 }
